@@ -98,7 +98,7 @@ Error generating stack: `+o.message+`
     font-weight: 700;
     background-color: ${e=>e.$ifSelected?"black":"white"};
     color: ${e=>e.$ifSelected?"white":"black"};
-`,Dm=({currentDice:e,rollDice:t})=>T.jsxs(Mm,{children:[T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`/dices/dice_${e}.png`,alt:"heebe"})}),T.jsx("p",{children:"Clikc on the dice to roll"})]}),Mm=qe.div`
+`,Dm=({currentDice:e,rollDice:t})=>T.jsxs(Mm,{children:[T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`../../public/dices/dice_${e}.png`,alt:"heebe"})}),T.jsx("p",{children:"Clikc on the dice to roll"})]}),Mm=qe.div`
   margin-top: 48px;
   display: flex;
   align-items: center;
