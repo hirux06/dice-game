@@ -1,11 +1,13 @@
 import styled from "styled-components";
+import logo from '/dices.png';
+
 
 
 const StartGame = ( {toggle}) => {
   return (
     <Container>
         <div>
-            <img src="../../public/dices.png" alt="" />
+            <img src={logo} alt="start_dice" />
         </div>
         <div className="content">
             <h1>Dice Game</h1>
